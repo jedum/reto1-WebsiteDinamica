@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo&display=swap");
+:root {
+    --my-blue-color: #8BECF3;
+    --my-red-color: #9F372E;
+    --main-color: #8D684A;
+    --main-color: #302E21;
+    /* --light-color: #ffffff; */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: initial;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid var(--my-red-color);
+}
+
+#logo {
+    width: 40%;
+    font-size: 30px;
+    float: left;
+    margin-top: 12px;
+    margin-left: -10px;
+}
+
+#logo img {
+    height: 60px;
+    display: block;
+    float: left;
+    margin-right: 4px;
+    /* animation: latir infinite 5s linear; */
+}
+
+#brand {
+    display: block;
+    margin: 0px;
+    float: left;
+    font-family: 'Aleo';
+    padding-top: 24px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#menu {
+    width: 60%;
+    float: right;
+    font-size: 18px;
+}
+
+#menu ul {
+    line-height: 68px;
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    height: 46px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #444;
+    transition: 300ms all;
+}
+
+#menu a:hover {
+    color: #f13e3e;
+}

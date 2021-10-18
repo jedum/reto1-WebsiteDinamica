@@ -8,25 +8,32 @@
     <meta name="author" content="Jesús Urdaneta">
     <meta name="description" content="Reto 1 del curso Frontend Anagular de GeeksHubs Academy">
     <title>Reto1-WebsiteDinamica</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
 
 <body>
-    <h1>Reto 1 Website Dinamico</h1>
     <header id="header">
-        <div class="">
+        <div class="container">
+            <!-- Logo -->
             <div id="logo">
-                Jedum
+                <img src="img/Logo-jedum.png" alt="" class="app-logo" />
+                <span id="brand">
+					<strong>Jedum Developer</strong> 
+				</span>
             </div>
+            <!-- Menú -->
             <nav id="menu">
                 <ul>
-                    <li herf="index.html">Inicio</li>
-                    <li herf="perfil.html">Perfil</li>
-                    <li herf="contacto.html">Contacto</li>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
+            <!--LIMPIAR FLOTADO-->
+            <div class="clearfix"></div>
         </div>
         <div id="slider">
-            <h1>Desarrollador Web Frontend</h1>
+            <h1>Jesús Daniel Urdaneta</h1>
         </div>
     </header>
     <main>
